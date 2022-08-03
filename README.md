@@ -35,3 +35,9 @@ Setup 2 terminal windows, navigate one to the `client` directory and the other t
 After making changes to the React app, you'll have to rebuild the application bundle. You can do this in the `client` directory just by running `npm run build`.
 
 In the `server` terminal, you can just run `npm start` to run the server.
+
+# Contribution and Collaboration
+
+Pull requests are welcome. However, pushing any commits must be first discussed with the group members. This is a private project, thus it is required to raise any concerns and/or opportunities with the team regarding the application. Once you have been granted approval for changes, be sure to update test cases appropriately.
+
+Distribution and use of this project is strictly prohibited.
