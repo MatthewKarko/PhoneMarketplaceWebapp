@@ -1,4 +1,4 @@
-# COMP5347 project
+# USYD phone marketplace project
 
 
 ## Setting up database
