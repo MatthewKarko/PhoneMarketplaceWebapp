@@ -1,0 +1,60 @@
+#edit-form {
+    display: inline-block;
+    align-items: center;
+    margin-right: 10em;
+    margin-top: 5em;
+    min-width: 25em;
+    max-width: 60em;
+}
+
+.editProfileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.editProfileContainer::-webkit-scrollbar {
+    display: none;
+}
+
+/** formatting for header 1 in profile section **/
+.editProfileContainer > h1 {
+    font-size: 4em;
+    text-align: top;
+    margin-left: 1em;
+    min-width: 5em;
+   
+    text-overflow: ellipsis;
+}
+
+/** formatting for header 2 in profile section **/
+.editProfileContainer > h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+/** formatting for buttons corresponding to updates across the various profile pages **/
+.submitButton {
+    cursor: pointer;
+    border: solid;
+    border-color: rgb(87, 26, 255);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding: 0.7em 0em;
+    margin: 1em 0em;
+    background-color: #ecbaba;
+    width:100%;
+}
+
+
+.fieldDiv { 
+    margin: 1em 0em;
+
+}
+
+.formInputText:hover {
+    background-color: rgb(253, 191, 175);
+}

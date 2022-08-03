@@ -1,0 +1,6 @@
+/** formatting for five grid items on home page **/
+.phoneGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

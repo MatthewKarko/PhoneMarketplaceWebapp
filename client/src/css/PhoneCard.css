@@ -1,0 +1,10 @@
+.phonecard {
+    margin: 2em;
+    border: 1px solid black;
+    width: 18em;
+    height: fit-content;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

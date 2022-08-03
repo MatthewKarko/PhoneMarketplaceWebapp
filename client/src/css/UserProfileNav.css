@@ -1,0 +1,97 @@
+/* #profNavBar {
+    margin: 0.8em 0em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+} */
+
+/** formatting for profile nav bar **/
+/* #profNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+} */
+
+/* ul {
+    list-style-type: none;
+    margin: 0.4em 40em;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+    float: left;
+  } */
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+/* 
+.tab-button {
+    margin: 0.4em 12em;
+    padding: 0.25em 3em;
+    background: none;
+    border: 2px outset solid;
+    border-color: rgb(255, 0, 0);
+    border-radius: 150px;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+.tab-button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.tab-button:hover {
+    background-color: #111;
+}
+.tab-button-icon {
+    max-height: 2em;
+    margin-left: 1em;
+}
+
+
+.tab-text{
+    color: rgb(255, 255, 255);
+}
+
+/* .profNavBar {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    background-image: linear-gradient(rgb(255, 197, 197), rgb(255, 255, 255));
+} */
